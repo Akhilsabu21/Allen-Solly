@@ -523,8 +523,12 @@ body{
 .main-scroll{
     display: flex;
     gap: 10px;
-    overflow-x: scroll;
+    overflow-x:scroll ;
     overflow-y: hidden;
+    
+}
+.main-scroll::-webkit-scrollbar{
+    display: none;
 }
 .scroll-image img{
     max-height: 370px;
